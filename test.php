@@ -4,9 +4,9 @@ phpinfo();
 
 echo "This is again test code";
 
-function campreTest() {
+function campreTest($val) {
 	$id = '1';
-$mul = $val*$id;
-return $mul;
+	$mul = $val*$id;
+	return $mul;
 }
 ?>
